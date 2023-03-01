@@ -1,0 +1,22 @@
+﻿{
+    "type": "record",
+    "name": "User",
+    "fields": [
+        {
+        "name": "Id",
+        "type": "int"
+        },
+        {
+        "name": "FirstName",
+        "type": "string"
+        },
+        {
+        "name": "LastName",
+        "type": "string"
+        },
+        {
+        "name": "Email",
+        "type": "string"
+        } 
+    ]
+}

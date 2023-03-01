@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\W510517\\Desktop\\Practice\\Kafka\\new-kafka-test-messenger\\KafkaConsumer\\KafkaConsumer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\W510517\\Desktop\\Practice\\Kafka\\new-kafka-test-messenger\\KafkaConsumer\\KafkaConsumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\W510517\\Desktop\\Practice\\Kafka\\new-kafka-test-messenger\\KafkaConsumer\\KafkaConsumer.csproj",
+        "projectName": "KafkaConsumer",
+        "projectPath": "C:\\Users\\W510517\\Desktop\\Practice\\Kafka\\new-kafka-test-messenger\\KafkaConsumer\\KafkaConsumer.csproj",
+        "packagesPath": "C:\\Users\\W510517\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W510517\\Desktop\\Practice\\Kafka\\new-kafka-test-messenger\\KafkaConsumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\W510517\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://pkgs.dev.azure.com/benefitexpress/_packaging/Mbe20Libraries-Dev/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/wexcp/_packaging/funding-global/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Confluent.SchemaRegistry": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Confluent.SchemaRegistry.Serdes.Avro": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
